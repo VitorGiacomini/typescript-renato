@@ -7,7 +7,6 @@
 // }
 let curso3;
 let curso4;
-let curso5;
 curso3 = {
     titulo: 'TADS',
     des: 'Graduação',
@@ -18,22 +17,14 @@ curso3 = {
     },
 };
 curso4 = {
-    titulo: 'ADM',
-    des: 'Graduação',
-    ch: 2500,
-    maxAlunos: 50,
+    titulo: 'ingles',
+    des: 'Curso rapido',
+    ch: 80,
+    maxAlunos: 10,
     status() {
         console.log('Em funcionamento!');
     },
+    qtdMeses: 3,
+    presencial: false
 };
-curso5 = {
-    titulo: 'CIÊNCIAS CONTABEIS',
-    des: 'Graduação',
-    ch: 6000,
-    maxAlunos: 50,
-    status() {
-        console.log('Anulado!');
-    },
-};
-console.log(curso3);
-curso3.status();
+console.log(curso4);
