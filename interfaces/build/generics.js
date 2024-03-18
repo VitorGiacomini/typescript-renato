@@ -11,3 +11,11 @@
 // console.log(funcGenerica2<number, string>(10, '10'));
 // console.log(funcGenerica2<string, number>('10', 10));
 // console.log(funcGenerica2<boolean, number>(false,10));
+// class Generica<T>{
+//     public valor: T;
+//     constructor(valor:T){
+//         this.valor = valor;
+//     }
+// }
+// let gen = new Generica<number>(10);
+// console.log(gen);

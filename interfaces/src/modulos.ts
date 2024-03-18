@@ -8,5 +8,8 @@ class Linguagem{
 }
 
 function impressao(texto: string){
-
+    console.log(texto);
 }
+
+export default Linguagem;
+export {nomes, impressao};
