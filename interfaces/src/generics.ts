@@ -21,4 +21,24 @@
 //     }
 // }
 // let gen = new Generica<number>(10);
-// console.log(gen);
+// console.log(gen); 
+
+function primeiroElemento<T>(array : T []): T | undefined{
+    return array.length> 0 ? array [0] : undefined; 
+}
+
+function maiorArray<T, U>(array1 : T[], array2  : U[]) : T[]|U[]{
+    return array1.length > array2.length ? array1  :  array2
+}
+//exemplo numeros
+const numeros : number [] = [1, 2, 3, 4, 5]
+console.log("Primeiro numero ", primeiroElemento(numeros))
+
+
+//exemplo com strings
+
+const palavras  : string[] = ["notebook", "arduino", "3Dprinter"]
+console.log("Primeria palavra ", primeiroElemento(palavras))
+
+
+
